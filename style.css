@@ -6,5 +6,23 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(red,blue,black); 
+    background: linear-gradient(Red,rgb(255, 132, 132),Red); 
+    flex-direction: column;
+    display: flex;
+
+}
+header{
+    background-color: black;
+    height: 100px;
+    
+}
+main{
+    background-color: rgb(250, 102, 102);
+    height: 200px;
+    flex-grow: 1;
+    
+}
+footer{
+    background-color: white;
+    height: 100px;   
 }
