@@ -9,29 +9,47 @@ body{
     background: linear-gradient(Red,rgb(255, 132, 132),Red); 
     flex-direction: column;
     display: flex;
+    font-family: 'Montserrat', cursive;
 
 }
 header{
-    background-color: green;
     height: 100px;
     display: flex;
     color: aliceblue;
     align-items: center;
     gap: 15px;
     padding-left: 70px;
-    font-family: 'Wavefont', cursive;
     
 }
 header span{
-    font-weight: 700;
+    font-weight: 100;
 }
 main{
-    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     flex-grow: 1;
     
 }
 footer{
-    background-color: blue;
     height: 100px;   
+}
+.background-logo{
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.content-text{
+    color: aliceblue;
+    position: absolute;
+    font-size: 40px;
+    width: 240px;
+    transform: translate(-100%);
 }
