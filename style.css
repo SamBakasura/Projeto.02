@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(Red,rgb(255, 132, 132),Red); 
+    background: linear-gradient(rgb(253, 111, 111),rgb(213, 106, 255),Red); 
     flex-direction: column;
     display: flex;
     font-family: 'Montserrat', cursive;
@@ -45,6 +45,7 @@ footer{
     top: 0;
     bottom: 0;
     z-index: -1;
+    opacity: 0.3;
 }
 .content-text{
     color: aliceblue;
