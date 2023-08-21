@@ -53,3 +53,10 @@ footer{
     width: 240px;
     transform: translate(-100%);
 }
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    padding-right: 50px;
+}
