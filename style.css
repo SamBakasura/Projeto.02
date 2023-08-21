@@ -12,17 +12,26 @@ body{
 
 }
 header{
-    background-color: black;
+    background-color: green;
     height: 100px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    gap: 15px;
+    padding-left: 70px;
+    font-family: 'Wavefont', cursive;
     
 }
+header span{
+    font-weight: 700;
+}
 main{
-    background-color: rgb(250, 102, 102);
+    background-color:yellow;
     height: 200px;
     flex-grow: 1;
     
 }
 footer{
-    background-color: white;
+    background-color: blue;
     height: 100px;   
 }
