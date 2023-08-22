@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgb(253, 111, 111),rgb(213, 106, 255),Red); 
+    background: linear-gradient(Red,rgba(255, 0, 0, 0.452),Red); 
     flex-direction: column;
     display: flex;
     font-family: 'Montserrat', cursive;
@@ -17,8 +17,9 @@ header{
     display: flex;
     color: aliceblue;
     align-items: center;
-    gap: 15px;
-    padding-left: 70px;
+    gap: 10px;
+    padding-left: 0px;
+    font-size: 20px;
     
 }
 header span{
@@ -55,9 +56,19 @@ footer{
     transform: translate(-100%);
 }
 footer{
+    color: rgb(202, 149, 149);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding-right: 50px;
+    padding-right: 0px;
+    padding-left: 70px;
+}
+.Produto{
+    height: 85vh;
+}
+footer img{
+    display: flex;
+    justify-content: end;
+    padding-right: 0px;
 }
