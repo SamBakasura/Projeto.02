@@ -86,9 +86,8 @@ footer img{
     }
     .content-text{
         text-align: center;
-        transform: translate(0%,-950%);
+        transform: translate(0%,-860%);
         font-size: 1.06rem;
         width: 100px;
-
     }
 }
